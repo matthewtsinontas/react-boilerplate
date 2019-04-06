@@ -1,0 +1,11 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate react app built from ground up",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Matthew Tsinontas",
+  "license": "ISC"
+}
