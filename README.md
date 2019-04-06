@@ -15,6 +15,7 @@ More of a personal techincal exercise, I want to architect a production ready re
 - [ ] PR build steps, 100% coverage required, linting required, build successful
 - [ ] Linting
 - [ ] Hot reloading
+- [ ] Clever minitifaction steps, including image bundling
 - [ ] Some kind of error handling/logging service
 - [ ] Styled components
 - [ ] Material UI
