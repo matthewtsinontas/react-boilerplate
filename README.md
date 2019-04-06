@@ -5,7 +5,8 @@ More of a personal techincal exercise, I want to architect a production ready re
 ## Checklist (WIP)
 
 ### Basic "Hello world" with CI and 100% coverage
-- [ ] Install react w/ webpack, ES6 + some ES7 modules
+- [x] Install react w/ webpack, ES6 + some ES7 modules
+- [ ] Separate dev/production webpack builds
 - [ ] Jest unit testing with code coverage report
 - [ ] CircleCI build pipeline, PR/Master builds (squash and merge?)
 - [ ] Auto deploy to a cloud hosting service
