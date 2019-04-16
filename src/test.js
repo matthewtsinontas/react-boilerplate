@@ -1,15 +1,15 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Timer from '.';
+import HelloWorld from '.';
 
-describe('Timer', () => {
+describe('HelloWorld', () => {
 	let elem;
     
 	beforeEach(() => {
-		elem = shallow(<Timer />);
+		elem = shallow(<HelloWorld />);
 	});
     
 	it('renders some text', () => {
-		expect(elem.text()).toContain('Number of seconds');
+		expect(elem.text()).toContain('Hello world!');
 	});
 });

@@ -4,11 +4,11 @@
   "description": "Boilerplate react app built from ground up",
   "main": "index.js",
   "scripts": {
-    "build:dev": "webpack-dev-server --open --config webpack.dev.js",
-    "build:prod": "webpack --config webpack.prod.js",
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --open --config webpack.dev.js",
     "lint": "eslint . --ext .js --fix",
     "test:all": "jest --coverage",
-    "test:dev": "jest --watch"
+    "test": "jest --watch"
   },
   "author": "Matthew Tsinontas",
   "license": "ISC",
