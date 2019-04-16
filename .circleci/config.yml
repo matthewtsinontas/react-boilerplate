@@ -22,6 +22,8 @@ jobs:
           command: npx jest --ci --runInBand --reporters=default --reporters=jest-junit
           environment:
             JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
+      - store_test_results:
+          path: /tmp/test-results
       - run: 
           name: Build
           command: npm run build
