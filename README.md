@@ -8,13 +8,13 @@ More of a personal techincal exercise, I want to architect a production ready re
 - [x] Install react w/ webpack, ES6 + some ES7 modules
 - [x] Separate dev/production webpack builds
 - [x] Jest unit testing with code coverage report
-- [ ] CircleCI build pipeline, PR/Master builds (squash and merge?)
+- [x] CircleCI build pipeline, PR/Master builds (squash and merge?)
 - [ ] Auto deploy to a cloud hosting service
 
 ### Next steps
 - [ ] Routing
 - [x] Pre commit/push hooks
-- [ ] PR build steps, 100% coverage required, linting required, build successful
+- [x] PR build steps, 100% coverage required, linting required, build successful
 - [x] Linting
 - [ ] Hot reloading
 
