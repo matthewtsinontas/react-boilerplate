@@ -11,6 +11,7 @@ module.exports = {
 			statements: 100
 		}
 	},
+	reporters: ['default', 'jest-junit'],
 	resetMocks: true,
 	setupFiles: ['./setup-tests.js']
 };
