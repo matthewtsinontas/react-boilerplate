@@ -19,7 +19,9 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
       - run:
           name: Run tests
-          command: npm run test:all -- --ci --runInBand --reporters=default --reporters=jest-junit
+          command: npx jest --ci --runInBand --reporters=default --reporters=jest-junit
           environment:
             JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
-      - run: npm run build
+      - run: 
+          name: Build
+          command: npm run build
