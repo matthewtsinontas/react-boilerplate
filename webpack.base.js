@@ -4,7 +4,6 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = {
-    mode: 'development',
     entry: {
         app: './index.js',
     },
@@ -12,20 +11,13 @@ module.exports = {
         filename: '[name].[hash].js',
         path: path.resolve(__dirname, 'dist')
     },
-    devtool: 'inline-source-map ',
-    devServer: {
-        contentBase: './dist'
-    },
     module: {
         rules: [
             {
                 test: /\.js$/,
                 exclude: /(node_modules)/,
                 use: {
-                    loader: 'babel-loader',
-                    options: {
-                        presets: ['@babel/preset-env', '@babel/preset-react']
-                    }
+                    loader: 'babel-loader'
                 }
             },
             {
