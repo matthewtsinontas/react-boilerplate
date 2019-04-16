@@ -13,7 +13,7 @@ More of a personal techincal exercise, I want to architect a production ready re
 
 ### Next steps
 - [ ] Routing
-- [ ] Pre commit/push hooks
+- [x] Pre commit/push hooks
 - [ ] PR build steps, 100% coverage required, linting required, build successful
 - [x] Linting
 - [ ] Hot reloading
