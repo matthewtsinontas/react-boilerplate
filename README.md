@@ -15,7 +15,7 @@ More of a personal techincal exercise, I want to architect a production ready re
 - [ ] Routing
 - [ ] Pre commit/push hooks
 - [ ] PR build steps, 100% coverage required, linting required, build successful
-- [ ] Linting
+- [x] Linting
 - [ ] Hot reloading
 
 :point_up: - Not so sure about this one anymore, after reading into the method by which hot reloading loads the page in react applcations I would worry about certain potential bugs being missed. 

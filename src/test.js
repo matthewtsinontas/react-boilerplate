@@ -3,13 +3,13 @@ import { shallow } from 'enzyme';
 import Timer from '.';
 
 describe('Timer', () => {
-    let elem;
+	let elem;
     
-    beforeEach(() => {
-        elem = shallow(<Timer />);
-    });
+	beforeEach(() => {
+		elem = shallow(<Timer />);
+	});
     
-    it('renders some text', () => {
-        expect(elem.text()).toContain('Number of seconds');
-    });
+	it('renders some text', () => {
+		expect(elem.text()).toContain('Number of seconds');
+	});
 });
