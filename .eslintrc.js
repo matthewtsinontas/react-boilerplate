@@ -48,5 +48,10 @@ module.exports = {
         "jest/no-identical-title": "error",
         "jest/prefer-to-have-length": "warn",
         "jest/valid-expect": "error"
+    },
+    "settings": {
+        "react": {
+            "version": "16.8"
+        }
     }
 };
