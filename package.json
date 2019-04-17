@@ -7,7 +7,6 @@
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack-dev-server --open --config webpack.dev.js",
     "lint": "eslint . --ext .js --fix",
-    "start": "node server.js",
     "test:all": "jest --coverage",
     "test": "jest --watch"
   },
