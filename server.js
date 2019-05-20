@@ -1,11 +1,8 @@
-var finalhandler = require('finalhandler');
-var http = require('http');
-var serveStatic = require('serve-static');
+const express = require('express');
+const app = express();
 
-var serve = serveStatic('dist', {'index': ['index.html']});
+app.use(express.static('public'));
 
-var server = http.createServer(function onRequest (req, res) {
-	serve(req, res, finalhandler(req, res));
-});
+app.get('/', (req, res) => res.send('Hello World!'));
 
-server.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 3000);
