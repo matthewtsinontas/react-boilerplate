@@ -9,7 +9,7 @@ More of a personal techincal exercise, I want to architect a production ready re
 - [x] Separate dev/production webpack builds
 - [x] Jest unit testing with code coverage report
 - [x] CircleCI build pipeline, PR/Master builds (squash and merge?)
-- [ ] Auto deploy to a cloud hosting service
+- [x] Auto deploy to a cloud hosting service
 
 ### Next steps
 - [ ] Routing
