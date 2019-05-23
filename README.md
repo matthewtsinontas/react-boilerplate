@@ -12,7 +12,7 @@ More of a personal techincal exercise, I want to architect a production ready re
 - [x] Auto deploy to a cloud hosting service
 
 ### Next steps
-- [ ] Routing
+- [x] Routing
 - [x] Pre commit/push hooks
 - [x] PR build steps, 100% coverage required, linting required, build successful
 - [x] Linting
