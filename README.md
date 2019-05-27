@@ -16,6 +16,7 @@ More of a personal techincal exercise, I want to architect a production ready re
 - [x] Pre commit/push hooks
 - [x] PR build steps, 100% coverage required, linting required, build successful
 - [x] Linting
+- [x] Styled components
 - [ ] Hot reloading
 
 :point_up: - Not so sure about this one anymore, after reading into the method by which hot reloading loads the page in react applcations I would worry about certain potential bugs being missed. 
@@ -29,7 +30,6 @@ When you hot-reload a react component the inital lifecycle methods don't run (wh
 [Further reading about webpack chunking of modules](https://webpack.js.org/guides/caching/)
 
 - [ ] Some kind of error handling/logging service
-- [ ] Styled components
 
 ### Component library?
 - [ ] Set up component library, maybe a monorepo with lerna?
