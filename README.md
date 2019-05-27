@@ -30,7 +30,6 @@ When you hot-reload a react component the inital lifecycle methods don't run (wh
 
 - [ ] Some kind of error handling/logging service
 - [ ] Styled components
-- [ ] Material UI
 
 ### Component library?
 - [ ] Set up component library, maybe a monorepo with lerna?
