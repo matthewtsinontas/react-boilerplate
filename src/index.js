@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Link } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 
-const MainWrapper = () => (
+const Main = () => (
 	<div>
 		<nav>
 			<Link to="/">Home</Link>
@@ -11,4 +11,4 @@ const MainWrapper = () => (
 	</div>
 );
 
-export default MainWrapper;
+export default Main;
