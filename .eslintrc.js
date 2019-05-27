@@ -7,7 +7,7 @@ module.exports = {
         "jest": true
     },
     "extends": [
-        "eslint:recommended", 
+        "eslint:recommended",
         "plugin:react/recommended",
         "plugin:jest/recommended"
     ],
@@ -47,7 +47,11 @@ module.exports = {
         "jest/no-focused-tests": "error",
         "jest/no-identical-title": "error",
         "jest/prefer-to-have-length": "warn",
-        "jest/valid-expect": "error"
+        "jest/valid-expect": "error",
+        "max-len": [
+          "error",
+          { "code": 80 }
+        ]
     },
     "settings": {
         "react": {
