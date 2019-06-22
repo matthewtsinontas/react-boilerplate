@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="3" failures="0" time="3.266">
-  <testsuite name="MainWrapper" errors="0" failures="0" skipped="0" timestamp="2019-05-23T19:51:52" time="0.721" tests="2">
-    <testcase classname="MainWrapper renders the top nav with the correct links" name="MainWrapper renders the top nav with the correct links" time="0.031">
-    </testcase>
-    <testcase classname="MainWrapper renders the correct number of routes" name="MainWrapper renders the correct number of routes" time="0.004">
+<testsuites name="jest tests" tests="3" failures="0" time="6.154">
+  <testsuite name="Page / HomePage" errors="0" failures="0" skipped="0" timestamp="2019-06-22T17:43:49" time="0.87" tests="1">
+    <testcase classname="Page / HomePage renders a message about welcome to the screen" name="Page / HomePage renders a message about welcome to the screen" time="0.009">
     </testcase>
   </testsuite>
-  <testsuite name="Page / HomePage" errors="0" failures="0" skipped="0" timestamp="2019-05-23T19:51:52" time="0.932" tests="1">
-    <testcase classname="Page / HomePage renders a message about welcome to the screen" name="Page / HomePage renders a message about welcome to the screen" time="0.008">
+  <testsuite name="MainWrapper" errors="0" failures="0" skipped="0" timestamp="2019-06-22T17:43:49" time="1.119" tests="2">
+    <testcase classname="MainWrapper renders the top nav with the correct links" name="MainWrapper renders the top nav with the correct links" time="0.025">
+    </testcase>
+    <testcase classname="MainWrapper renders the correct number of routes" name="MainWrapper renders the correct number of routes" time="0.005">
     </testcase>
   </testsuite>
 </testsuites>
