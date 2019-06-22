@@ -10,6 +10,11 @@ describe('Page / HomePage', () => {
 	});
 
 	it('renders a message about welcome to the screen', () => {
-		expect(elem.text()).toContain('Welcome to the home page');
+		expect(
+			elem
+				.find('WelcomeMessage')
+				.render()
+				.text()
+		).toContain('Welcome to the home page');
 	});
 });

@@ -1,6 +1,6 @@
 # React boilerplate
 
-More of a personal techincal exercise, I want to architect a production ready react app from the ground up, without using create-react-app including a CI pipeline 
+More of a personal technical exercise, I want to architect a production ready react app from the ground up, without using create-react-app including a CI pipeline
 
 ## Checklist (WIP)
 
@@ -16,21 +16,20 @@ More of a personal techincal exercise, I want to architect a production ready re
 - [x] Pre commit/push hooks
 - [x] PR build steps, 100% coverage required, linting required, build successful
 - [x] Linting
+- [x] Styled components
 - [ ] Hot reloading
 
-:point_up: - Not so sure about this one anymore, after reading into the method by which hot reloading loads the page in react applcations I would worry about certain potential bugs being missed. 
+:point_up: - Not so sure about this one anymore, after reading into the method by which hot reloading loads the page in react applications I would worry about certain potential bugs being missed.
 
-When you hot-reload a react component the inital lifecycle methods don't run (which makes sense) and classes won't be initialised again, this means any sort of logic that is being tested in those methods will need to manually refresh - which worries me a bit over the original auto-refresh from webpack dev... will need to think about this one.
+When you hot-reload a react component the initial lifecycle methods don't run (which makes sense) and classes won't be initialised again, this means any sort of logic that is being tested in those methods will need to manually refresh - which worries me a bit over the original auto-refresh from webpack dev... will need to think about this one.
 
-[Futher reading when I come back to it](https://webpack.js.org/guides/hot-module-replacement/)
+[Further reading when I come back to it](https://webpack.js.org/guides/hot-module-replacement/)
 
 - [ ] Clever minification steps, including image bundling, code splitting
 
 [Further reading about webpack chunking of modules](https://webpack.js.org/guides/caching/)
 
 - [ ] Some kind of error handling/logging service
-- [ ] Styled components
-- [ ] Material UI
 
 ### Component library?
 - [ ] Set up component library, maybe a monorepo with lerna?
