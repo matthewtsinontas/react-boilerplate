@@ -16,5 +16,18 @@ const presets = [
 		'@babel/preset-react'
 	]
 ];
+
+const plugins = [
+	[
+		'module-resolver',
+		{
+			'alias': {
+				'pages': './src/pages',
+				'components': './src/components'
+			}
+		}
+	],
+	['@babel/plugin-proposal-class-properties', { 'loose': false }]
+];
   
-module.exports = { presets };
+module.exports = { presets, plugins };

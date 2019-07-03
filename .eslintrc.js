@@ -1,4 +1,5 @@
 module.exports = {
+    "parser": "babel-eslint",
     "env": {
         "browser": true,
         "node": true,
@@ -27,6 +28,22 @@ module.exports = {
         "jest"
     ],
     "rules": {
+        // React rules
+		"react/jsx-indent": 0,
+		"react/no-typos": 0,
+		"react/jsx-indent-props": 0,
+        "react/jsx-filename-extension": 0,
+        "react/self-closing-comp": ["error", {
+            "component": true,
+            "html": true
+        }],
+        // Jest rules
+        "jest/no-identical-title": 0,
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "error",
+        "jest/prefer-to-have-length": "warn",
+        "jest/valid-expect": "error",
+        // Other rules
         "indent": [
             "error",
             "tab"
@@ -43,11 +60,6 @@ module.exports = {
             "error",
             "always"
         ],
-        "jest/no-disabled-tests": "warn",
-        "jest/no-focused-tests": "error",
-        "jest/no-identical-title": "error",
-        "jest/prefer-to-have-length": "warn",
-        "jest/valid-expect": "error",
         "max-len": [
           "error",
           { "code": 80 }
